@@ -49,11 +49,11 @@ function App() {
         </ChannelContext.Provider>
       </UserContext.Provider>
 
-      {/* <DataFetching /> */}
-      {/* <IntervalHookCounter /> */}
-      {/* <EffectToggleCleanup /> */}
-      {/* <EffectMouse /> */}
-      {/* <EffectCounter/> */}
+      <DataFetching />
+      <IntervalHookCounter />
+      <EffectToggleCleanup />
+      <EffectMouse />
+      <EffectCounter/>
       {/* <StateArray /> */}
       {/* <StateForm /> */}
       {/* <HCounter/> */}
