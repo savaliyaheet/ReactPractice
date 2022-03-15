@@ -48,12 +48,12 @@ function App() {
           <ComponentC />
         </ChannelContext.Provider>
       </UserContext.Provider>
-
-      <DataFetching />
-      <IntervalHookCounter />
-      <EffectToggleCleanup />
-      <EffectMouse />
-      <EffectCounter/>
+<div>Changed</div>
+      {/* <DataFetching /> */}
+      {/* <IntervalHookCounter /> */}
+      {/* <EffectToggleCleanup /> */}
+      {/* <EffectMouse /> */}
+      {/* <EffectCounter/> */}
       {/* <StateArray /> */}
       {/* <StateForm /> */}
       {/* <HCounter/> */}
