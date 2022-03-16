@@ -37,18 +37,21 @@ import EffectToggleCleanup from "./hooksComponent/EffectToggleCleanup";
 import IntervalHookCounter from "./hooksComponent/IntervalHookCounter";
 import DataFetching from "./hooksComponent/DataFetching";
 import ComponentC from "./hooksComponent/ComponentC";
+import ExampleComponent from "./hooksComponent/ExampleComponent";
+import ReducerCounter from "./hooksComponent/ReducerCounter";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <UserContext.Provider value={"Heet"}>
+      <ReducerCounter />
+      {/* <ExampleComponent /> */}
+      {/* <UserContext.Provider value={"Heet"}>
         <ChannelContext.Provider value={"Savaliya"}>
           <ComponentC />
         </ChannelContext.Provider>
-      </UserContext.Provider>
-<div>Changed</div>
+      </UserContext.Provider> */}
       {/* <DataFetching /> */}
       {/* <IntervalHookCounter /> */}
       {/* <EffectToggleCleanup /> */}
@@ -92,6 +95,6 @@ function App() {
       </Welcome> */}
     </div>
   );
-}
+};
 
 export default App;
